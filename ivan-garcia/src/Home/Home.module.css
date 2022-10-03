@@ -1,0 +1,90 @@
+.hello {
+    position: absolute;
+    left: 160px;
+    top: 260px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    letter-spacing: 5px;
+}
+.name {
+    position: absolute;
+    left: 150px;
+    top: 200px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 100px;
+    color: #443DCD;
+    letter-spacing: 5px;
+}
+
+.area {
+    position: absolute;
+    left: 160px;
+    top: 430px;
+    color: #808B96;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+}
+
+.area2 {
+    position: absolute;
+    left: 160px;
+    top: 460px;
+    color: #808B96;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+}
+
+.github {
+    color: #ffffff;
+    position: absolute;
+    left: 160px;
+    top: 550px;
+    font-size: 30px;
+    transition: 0.3s;
+} 
+.github:hover {
+   color: #443DCD;
+}
+
+.linkedin {
+    color: #ffffff;
+    position: absolute;
+    left: 210px;
+    top: 550px;
+    font-size: 30px;
+    transition: 0.3s;
+}
+.linkedin:hover {
+    color: #443DCD;
+}
+
+.instagram {
+    color: #ffffff;
+    position: absolute;
+    left: 260px;
+    top: 550px;
+    font-size: 30px;
+    transition: 0.3s;
+}
+.instagram:hover {
+    color: #443DCD;
+}
+
+.cv {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #808B96;
+    background-color: #333;
+    position: absolute;
+    left: 400px;
+    top: 545px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    transition: 0.3s;
+    border-radius: 8px;
+}
+.cv:hover {
+    background-color: #443DCD;
+    color: #0d1117;
+}
