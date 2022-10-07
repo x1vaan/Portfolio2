@@ -1,0 +1,83 @@
+.aboutme{
+    position: absolute;
+    top: 990px;
+    left: 350px;
+    color: #443DCD;  
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.aboutme::after{
+    content: "";
+    display: block;
+    position: relative;
+    top: -20px;
+    left: 245px;
+    width: 300px;
+    height: 1px;
+    margin-left: 20px;
+    background-color: #ccd6f6;
+    opacity: 0.1;
+}
+
+.about{
+    position: absolute;
+    left: 430px;
+    top: 1080px;
+    text-align:  start;
+    max-width: 490px;
+    color: #8892b0;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.photo {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    top: 1040px;
+    left: 210px;
+    border-radius: 8px;
+    border: 3px solid #333;
+    filter: grayscale(100%);
+    transition: 0.2s;
+}
+.photo:hover {
+  filter: grayscale(0%);
+}
+
+.stack{
+    position: absolute;
+    left: 430px;
+    top: 1400px;
+    text-align:  start;
+    color: #443DCD;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.stacklist {
+    position: absolute;
+    top: 1450px;
+    left: 410px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    color: #8892b0;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    gap: 0px 10px;
+    padding: 0px;
+    margin: 20px 0px 0px;
+    overflow: hidden;
+    list-style: none;
+    text-align: start;
+}
+
+.stacklist li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+}

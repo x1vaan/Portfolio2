@@ -1,44 +1,47 @@
 .hello {
     position: absolute;
-    left: 160px;
+    left: 250px;
     top: 260px;
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 18px;
+    font-size: 17px;
+    font-weight: 100;
     color: #ffffff;
-    letter-spacing: 5px;
+    letter-spacing: 1px;
 }
 .name {
     position: absolute;
-    left: 150px;
+    left: 240px;
     top: 200px;
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 100px;
     color: #443DCD;
-    letter-spacing: 5px;
+    font-weight: 500;
 }
 
 .area {
     position: absolute;
-    left: 160px;
+    left: 250px;
     top: 430px;
-    color: #808B96;
+    color: #8892b0;
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 100;
 }
 
 .area2 {
     position: absolute;
-    left: 160px;
+    left: 250px;
     top: 460px;
-    color: #808B96;
+    color: #8892b0;
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 100;
 }
 
 .github {
     color: #ffffff;
     position: absolute;
-    left: 160px;
+    left: 250px;
     top: 550px;
     font-size: 30px;
     transition: 0.3s;
@@ -50,7 +53,7 @@
 .linkedin {
     color: #ffffff;
     position: absolute;
-    left: 210px;
+    left: 290px;
     top: 550px;
     font-size: 30px;
     transition: 0.3s;
@@ -62,7 +65,7 @@
 .instagram {
     color: #ffffff;
     position: absolute;
-    left: 260px;
+    left: 330px;
     top: 550px;
     font-size: 30px;
     transition: 0.3s;
@@ -73,18 +76,91 @@
 
 .cv {
     font-family: 'Noto Sans KR', sans-serif;
-    color: #808B96;
-    background-color: #333;
+    color: #443DCD;
+    background-color: #0d1117;
+    border: solid 2px #443DCD;
     position: absolute;
-    left: 400px;
+    left: 650px;
     top: 545px;
     width: 150px;
     height: 40px;
     font-size: 20px;
-    transition: 0.3s;
     border-radius: 8px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: 0.4s;
 }
 .cv:hover {
     background-color: #443DCD;
-    color: #0d1117;
+    color: #ffffff;
 }
+
+.download {
+    position: relative;
+    top: 3px;
+}
+
+.back {
+    color: #ffffff;
+    padding-bottom: 0.25rem;
+    position: relative;
+}
+.back::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #443DCD;
+    transition: width 0.25s ease-out;
+}
+
+.back:hover::before{
+    width: 100%;
+}
+
+.location{
+    color: #F4D03F;
+    padding-bottom: 0.25rem;
+    position: relative;
+    transition: 0.25s;
+}
+
+.location::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #5DADE2;
+    transition: all 0.25s ease-in-out;
+}
+
+.location::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 0;
+    height: 2px;
+    background-color: #5DADE2;
+    transition: all 0.25s ease-in-out;
+}
+
+.location:hover::before{
+    width: 100%;
+    left: 0%;
+} 
+
+.location:hover::after{
+    width: 100%;
+    left: 0%;
+} 
+
+.location:hover{
+  color: #ffffff;
+}
+
+/* #4169E1 */
