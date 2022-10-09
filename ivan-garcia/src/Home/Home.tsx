@@ -6,6 +6,7 @@ import {RiLinkedinFill,RiInstagramLine} from 'react-icons/ri'
 import {AiOutlineDownload} from 'react-icons/ai'
 import About from "../About/About";
 import Project from "../Projects/Projects";
+import Contact from "../Contact/Contact";
 
 
 export default function Home (): JSX.Element {
@@ -13,7 +14,8 @@ export default function Home (): JSX.Element {
        <div>
          <NavBar/>
          <p className={Homecss.hello}>Hello, my name is</p>
-         <p className={Homecss.name}>Ivan Garcia.</p>
+         <p className={Homecss.name}>Sergio Ivan Garcia.</p>
+         <p className={Homecss.callme}>(But you can call me Ivan :p)</p>
          <p className={Homecss.area}>I am a Junior Full Stack Developer who wants to specialize on</p>
          <p className={Homecss.area2}> <span className={Homecss.back}>Back-end Development.</span> Currently living in 
          <span className={Homecss.location}> Buenos Aires, Argentina.</span>
@@ -26,6 +28,7 @@ export default function Home (): JSX.Element {
          
          <About/>
          <Project/>
+         <Contact/>
        </div> 
     )
 }

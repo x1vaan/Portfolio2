@@ -1,0 +1,53 @@
+.contact{
+    position: relative;
+    top: 1300px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #443DCD;
+    font-size: 16px;
+}
+
+.getintouch{
+    position: relative;
+    top: 1260px;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    color: #ccd6f6;
+    font-size: 50px;
+}
+
+.description {
+    position: relative;
+    top: 1220px;
+    left: 710px;
+    max-width: 520px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #8892b0;
+    font-weight: 100;
+    text-align: center;
+    font-size: 17px;
+}
+
+.email {
+    position: relative;
+    top: 1280px;
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    color: #ccd6f6;
+    font-weight: 100;
+    font-size: 14px;
+    background-color: transparent;
+    border: 1px solid #443DCD;
+    padding: 1.25rem 1.75rem; 
+    border-radius: 4px;
+    transition: 0.4s;
+}
+.email:hover{
+    background-color: #443DCD;
+}
+
+.ivan{
+    position: relative;
+    top: 1500px;
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    color: #443DCD;
+    font-size: 12px;
+    padding-bottom: 50px;
+}
