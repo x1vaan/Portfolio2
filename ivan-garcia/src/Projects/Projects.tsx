@@ -6,7 +6,7 @@ import FitFocus from '../images/Fit-Focus.png'
 export default function Project (): JSX.Element {
 
   return (
-    <div>
+    <div id="projects" className={Projectcss.contact}>
       <p className={Projectcss.projects}>Projects</p>
 
       <div className={Projectcss.container}>

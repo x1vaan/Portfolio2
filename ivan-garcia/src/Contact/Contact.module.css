@@ -1,22 +1,31 @@
-.contact{
+.contactme {
+    display: flex;
+    justify-content: center;
     position: relative;
     top: 1300px;
+    height: 480px;
+    padding-bottom: 50px;
+}
+
+.contact{
+    position: absolute;
+    top: 0px;
     font-family: 'Noto Sans KR', sans-serif;
     color: #443DCD;
     font-size: 16px;
 }
 
 .getintouch{
-    position: relative;
-    top: 1260px;
+    position: absolute;
+    top: 0px;
     font-family: 'Reem Kufi Ink', sans-serif;
     color: #ccd6f6;
     font-size: 50px;
 }
 
 .description {
-    position: relative;
-    top: 1220px;
+    position: absolute;
+    top: 120px;
     left: 710px;
     max-width: 520px;
     font-family: 'Noto Sans KR', sans-serif;
@@ -27,8 +36,8 @@
 }
 
 .email {
-    position: relative;
-    top: 1280px;
+    position: absolute;
+    top: 250px;
     font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
     color: #ccd6f6;
     font-weight: 100;
@@ -44,8 +53,8 @@
 }
 
 .ivan{
-    position: relative;
-    top: 1500px;
+    position: absolute;
+    bottom: -30px;
     font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
     color: #443DCD;
     font-size: 12px;

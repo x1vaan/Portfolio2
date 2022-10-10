@@ -1,6 +1,12 @@
+.contact {
+    position: relative;
+    top: 1050px;
+    height: 1000px;
+}
+
 .projects {
     position: absolute;
-    top: 1700px;
+    top: -35px;
     left: 263px;
     color: #443DCD;  
     font-family: 'Noto Sans KR', sans-serif;
@@ -24,9 +30,9 @@
 .videogamesapp {
     width: 580px;
     height: 360px;
-    position: relative;
-    top: 600px;
-    left: 40px;
+    position: absolute;
+    top: 100px;
+    left: 416px;
     border-radius: 8px;
     filter: grayscale(100%);
     transition: 0.4s;
@@ -39,9 +45,9 @@
 .fitfocus {
     width: 580px;
     height: 360px;
-    position: relative;
-    top: 1050px;
-    left: -540px;
+    position: absolute;
+    top: 550px;
+    left: 416px;
     border-radius: 8px;
     filter: grayscale(100%);
     transition: 0.4s;
@@ -56,7 +62,7 @@
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 300;
     color: #443DCD;
-    top: 2080px;
+    top: 345px;
     left: 1020px;
     list-style: none;
     display: flex;
@@ -71,7 +77,7 @@
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 300;
     color: #443DCD;
-    top: 2500px;
+    top: 765px;
     left: 1110px;
     list-style: none;
     display: flex;
@@ -89,7 +95,7 @@
     height: 120px;
     margin-bottom: 300px;
     border-radius: 5px;
-    top: 1550px;
+    top: 210px;
     left: 1050px;
 }
 

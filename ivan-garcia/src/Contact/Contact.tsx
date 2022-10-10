@@ -3,7 +3,7 @@ import css from './Contact.module.css'
 
 export default function Contact (): JSX.Element {
     return (
-        <div>
+        <div id="contactme" className={css.contactme}>
             <p className={css.contact}>Contact</p>
             <p className={css.getintouch}>Get In Touch</p>
             <p className={css.description}>If you have any new opportunities for me, or you just have a question, please communicate with me, here is my inbox :).</p>
