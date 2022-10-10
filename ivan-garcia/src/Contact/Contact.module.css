@@ -5,6 +5,7 @@
     top: 1300px;
     height: 480px;
     padding-bottom: 50px;
+    width: 100%;
 }
 
 .contact{
@@ -26,7 +27,6 @@
 .description {
     position: absolute;
     top: 120px;
-    left: 710px;
     max-width: 520px;
     font-family: 'Noto Sans KR', sans-serif;
     color: #8892b0;

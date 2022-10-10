@@ -1,7 +1,10 @@
 .container {
+    display: flex;
+    justify-content: center;
     position: relative;    
     top: 930px ;
     height: 600px;
+    width: 100%;
 }
 .aboutme{
     position: absolute;
@@ -39,11 +42,11 @@
 }
 
 .photo {
-    position: relative;
+    position: absolute;
     width: 400px;
     height: 400px;
     top: 110px;
-    left: 300px;
+    left: 1100px;
     border-radius: 50%;
     border: 3px solid #242942;
     filter: grayscale(100%);
