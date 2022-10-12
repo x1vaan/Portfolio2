@@ -17,8 +17,7 @@ export default function Home (): JSX.Element {
   }
   
     return (
-       <div>
-         <NavBar/>
+       <div className={Homecss.container}>
          <p className={Homecss.hello}>Hello, my name is</p>
          <p className={Homecss.name}>Sergio Ivan Garcia.</p>
          <p className={Homecss.callme}>(But you can call me Ivan :p)</p>
@@ -40,9 +39,6 @@ export default function Home (): JSX.Element {
           <option value="Spanish">Spanish</option>
           <option value="Portuguese">Portuguese</option>
          </select>
-         <About/>
-         <Project/>
-         <Contact/>
        </div> 
     )
 }

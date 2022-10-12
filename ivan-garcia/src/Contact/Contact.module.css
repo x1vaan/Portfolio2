@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     position: relative;
-    top: 1300px;
+    top: 520px;
     height: 480px;
     padding-bottom: 50px;
     width: 100%;
@@ -10,7 +10,7 @@
 
 .contact{
     position: absolute;
-    top: 0px;
+    top: -30px;
     font-family: 'Noto Sans KR', sans-serif;
     color: #443DCD;
     font-size: 16px;
@@ -18,7 +18,7 @@
 
 .getintouch{
     position: absolute;
-    top: 0px;
+    top: -20px;
     font-family: 'Reem Kufi Ink', sans-serif;
     color: #ccd6f6;
     font-size: 50px;
@@ -26,7 +26,7 @@
 
 .description {
     position: absolute;
-    top: 120px;
+    top: 100px;
     max-width: 520px;
     font-family: 'Noto Sans KR', sans-serif;
     color: #8892b0;
@@ -37,7 +37,7 @@
 
 .email {
     position: absolute;
-    top: 250px;
+    top: 230px;
     font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
     color: #ccd6f6;
     font-weight: 100;
