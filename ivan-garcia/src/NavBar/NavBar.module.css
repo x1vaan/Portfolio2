@@ -1,3 +1,6 @@
+* {
+   box-sizing: border-box;
+}
 .img {
     position: relative;
     left: 50px;
@@ -6,28 +9,28 @@
 }
 
 .nav {
-    height: 60px;
     background-color: #333;
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px -20px;
+    width: 100%;
 }
 
-.list{
+.navlist ul{
     display: flex;
     color: #ffffff;
     font-family: 'Reem Kufi Ink', sans-serif;
-    list-style: none;
-    position: relative;
-    right: 20px;
+    margin: 0;
+    padding: 0;
 }
 
 .list li {
+    list-style: none;
     position: relative;
-    padding: 0 15px;
+    padding: 0 1rem;
     margin: 0 20px;
-    font-size: 18px;
+    font-size: 1.2em;
     cursor: pointer;
     transition: 0.4s;
     letter-spacing: 0.5px;
@@ -47,4 +50,52 @@
 
 .list li:hover::before{
     width: 100%;
+}
+
+.button {
+  position: absolute;
+  top: 1.3rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.navlistactive {
+    width: 100%;
+    color: #ffffff;
+    font-family: 'Reem Kufi Ink', sans-serif;
+}
+
+@media (max-width: 520px) {
+    .button {
+        display: flex;
+    }
+    .navlist {
+        display: none;
+        width: 100%;
+    }
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navlist ul{
+      width: 100%;
+      flex-direction: column;
+    }
+    .navlist li {
+        text-align: center;
+        
+    }
+    .navlist.active {
+        display: flex;
+    }
 }
