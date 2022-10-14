@@ -10,7 +10,7 @@ import Contact from "../Contact/Contact";
 
 
 export default function Home (): JSX.Element {
-  const [language, setlanguage] = useState('spanish');
+  const [language, setlanguage] = useState('Spanish');
 
   const onchange = (e: ChangeEvent<HTMLSelectElement>) => {
       setlanguage(e.target.value)
