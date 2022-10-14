@@ -21,11 +21,11 @@ export default function Home (): JSX.Element {
          <p className={Homecss.hello}>Hello, my name is</p>
          <p className={Homecss.name}>Sergio Ivan Garcia.</p>
          <p className={Homecss.callme}>(But you can call me Ivan :p)</p>
-         <p className={Homecss.area}>I am a Junior Full Stack Developer who wants to specialize on</p>
-         <p className={Homecss.area2}> <span className={Homecss.back}>Back-end Development.</span> Currently living in 
-         <span className={Homecss.location}> Buenos Aires, Argentina.</span>
-         </p>
-
+         <p className={Homecss.area}>
+          I am a Junior Full Stack Developer who wants to specialize on<br/>
+          <span className={Homecss.back}>Back-end Development. </span>
+          Currently living in <span className={Homecss.location}> Buenos Aires, Argentina.</span>
+          </p>
          <a href="https://github.com/x1vaan"><GoMarkGithub className={Homecss.github}/></a>
          <a href="https://www.linkedin.com/in/sergio-ivan-garcia/"><RiLinkedinFill className={Homecss.linkedin}/></a>
          <a href="https://www.instagram.com/_garciaivann/"><RiInstagramLine className={Homecss.instagram}/></a>

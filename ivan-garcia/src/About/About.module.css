@@ -7,21 +7,23 @@
     width: 100%;
 }
 .aboutme{
+    display: flex;
     position: absolute;
     top: 0px;
-    left: 350px;
+    left: 22.5%;
     color: #443DCD;  
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 35px;
     font-weight: 500;
+    transition: 0.3s;
 }
 
 .aboutme::after{
     content: "";
     display: block;
     position: relative;
-    top: -20px;
-    left: 245px;
+    top: 30px;
+    left: 1%;
     width: 300px;
     height: 1px;
     margin-left: 20px;
@@ -31,7 +33,7 @@
 
 .about{
     position: absolute;
-    left: 430px;
+    left: 22.5%;
     top: 90px;
     text-align:  start;
     max-width: 490px;
@@ -46,11 +48,11 @@
     width: 400px;
     height: 400px;
     top: 110px;
-    left: 1100px;
+    left: 58%;
     border-radius: 50%;
     border: 3px solid #242942;
     filter: grayscale(100%);
-    transition: 0.2s;
+    transition: 0.4s;
 
 }
 .photo:hover {
@@ -59,7 +61,7 @@
 
 .stack{
     position: absolute;
-    left: 430px;
+    left: 22.5%;
     top: 410px;
     text-align:  start;
     color: #443DCD;
@@ -71,7 +73,7 @@
 .stacklist {
     position: absolute;
     top: 460px;
-    left: 410px;
+    left: 21.5%;
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 14px;
     font-weight: 100;
@@ -90,8 +92,89 @@
     margin-bottom: 10px;
     padding-left: 20px;
 }
-
-
 .get {
     cursor: pointer;
+}
+
+@media (max-width : 1400px){
+     .photo{
+        width: 300px;
+        height: 300px;
+        left: 70%;
+     }
+}
+
+@media (max-width : 1045px){
+   .aboutme {
+     left: 3%;
+   }
+   .aboutme::after{
+    width: 70vw;
+   }
+   .about{
+    left: 3%;
+    max-width: 100%;
+   }
+   .stack{
+    left: 3%;
+    top: 300px ;
+   }
+   .stacklist{
+    left: 1%;
+    top: 350px;
+   }
+   .photo{
+    left: 60%;
+    top: 350px;
+   }
+}
+
+@media (max-width: 760px) {
+    .photo{
+        left: 30%;
+        top: 550px;
+    }
+}
+
+@media (max-width : 685px){
+    .aboutme::after{
+        width: 60vw;
+    }
+    .stack{
+     top: 370px;
+    }
+    .stacklist{
+        top: 420px;
+    }
+}
+@media (max-width : 515px){
+    .aboutme::after{
+        width: 50vw;
+    }
+    .stack{
+     top: 420px;
+    }
+    .stacklist{
+        top: 480px;
+    }
+    .photo{
+        left: 20vw;
+        top: 650px;
+    }
+}
+
+@media (max-width : 440px) {
+    .aboutme::after{
+        width: 40vw;
+    }
+    .stack{
+        top: 440px;
+       }
+       .stacklist{
+           top: 520px;
+       }
+       .photo{
+           left: 3em;
+           top: 650px;
+       }
 }

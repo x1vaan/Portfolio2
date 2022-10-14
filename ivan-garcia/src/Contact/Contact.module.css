@@ -60,3 +60,9 @@
     font-size: 12px;
     padding-bottom: 50px;
 }
+
+@media (max-width : 761px) {
+    .contactme {
+        top: 850px;
+    }
+}
