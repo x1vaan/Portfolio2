@@ -98,4 +98,8 @@
     .navlist.active {
         display: flex;
     }
+    .img {
+        position: relative;
+        left: 1%;
+    }
 }
