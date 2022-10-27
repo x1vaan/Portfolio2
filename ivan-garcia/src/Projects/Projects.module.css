@@ -1,7 +1,9 @@
 .project {
+    display: flex;
+    flex-direction: column;
     position: relative;
     top: 220px;
-    height: 1000px;
+    height: 170vh;
     width: 100%;
 }
 
@@ -29,36 +31,7 @@
     background-color: #ccd6f6;
     opacity: 0.1;
 }
-
-.videogamesapp {
-    width: 580px;
-    height: 360px;
-    position: absolute;
-    top: 100px;
-    left: 21.7%;
-    border-radius: 8px;
-    filter: grayscale(100%);
-    transition: 0.4s;
-    cursor: pointer;
-}
-.videogamesapp:hover{
-    filter: grayscale(0%);
-}
-
-.fitfocus {
-    width: 580px;
-    height: 360px;
-    position: absolute;
-    top: 550px;
-    left: 21.7%;
-    border-radius: 8px;
-    filter: grayscale(100%);
-    transition: 0.4s;
-    cursor: pointer;
-}
-.fitfocus:hover{
-    filter: grayscale(0%);
-}
+/* 
 
 .listvideogames {
     position: absolute;
@@ -129,7 +102,7 @@ span {
 
 a {
     text-decoration: none;
-}
+} */
 
 @media (max-width: 1700px){
     .container{

@@ -1,0 +1,65 @@
+.containerP {
+    margin: 0 auto;
+    width: 56vw;
+    height: 45vh;
+    margin-top: 100px;
+}
+
+.image{
+    position: relative;
+    left: -23%;
+    width: 54%;
+    height: 85%;
+    border-radius: 8px;
+    filter: grayscale(100%);
+    transition: 0.4s;
+    cursor: pointer;
+}
+.image:hover{
+    filter: grayscale(0%);
+}
+.name {
+    position: absolute;
+    right: 22%;
+    margin-top: -37vh;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-size: 25px;
+    color: #ccd6f6;
+    text-align: end;
+}
+
+.description {
+    position: relative;
+    left: 58%;
+    top: -20em;
+    box-shadow: 0 10px 30px -15px rgba(2,12,27,0.7);
+    background-color: #141a24;
+    width: 42%;
+    height: 120px;
+    border-radius: 5px;
+    text-align: end;
+}
+
+.text {
+  color: #8892b0;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  margin-right: 5px;
+}
+
+.containerTechnologies {
+    position: relative;
+    left: 58%;
+    top: -18em;
+    width: 42%;
+    height: 60px;
+    border-radius: 5px;
+    text-align: end;
+}
+
+.technologies{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 100;
+    color: #443DCD;
+}
