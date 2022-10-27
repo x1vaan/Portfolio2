@@ -104,46 +104,6 @@ a {
     text-decoration: none;
 } */
 
-@media (max-width: 1700px){
-    .container{
-        left: 65%;
-    }
-    .listvideogames{
-        left: 62.5%;
-    }
-    .listfitfocus{
-        left: 68%;
-    }
-}
-
-@media (max-width: 1450px) {
-    .container{
-        left: 25%;
-        top: 100px;
-        margin-bottom: 370px;
-    }
-    .videogamesapp{
-        height: 250px;
-        width: 450px;
-        left: 27%;
-        top: 270px;
-    }
-    .fitfocus{
-        height: 250px;
-        width: 450px;
-        left: 27%;
-        top: 770px;
-    }
-    .listvideogames{
-        top: 210px;
-        left: 21.5%;
-    }
-    .listfitfocus{
-        top: 710px;
-        left: 28%;
-    }
-}
-
 @media (max-width: 760px) {
     .project{
         top: 500px;
@@ -153,73 +113,5 @@ a {
     }
     .projects::after{
         width: 65vw;
-    }
-}
-
-@media (max-width: 685px){
-    .container{
-        width: 90%;
-        left: 2%;
-    }
-   .name{
-    position: absolute;
-   left: 0;
-   margin: 0;
-   }
-   .des{
-    position: absolute;
-    top: 0;
-    left: 5px;
-    text-align: start;
-   }
-   .videogamesapp{
-    left: 2%;
-   }
-   .fitfocus{
-    left: 2%;
-   }
-   .listfitfocus{
-     left: 0;
-   }
-   .listvideogames{
-    left: -5%;
-    width: 50%;
-   }
-}
-
-@media (max-width: 515px){
-    .projects::after{
-        width: 55vw;
-    }
-  .videogamesapp{
-    width: 80%;
-  }
-  .fitfocus{
-    width: 80%;
-    top: 790px;
-  }
-  .listfitfocus{
-    font-size: 13px;
-    left: -10%;
-    top: 740px;
-  }
-  .listvideogames{
-    font-size: 12px;
-    left: -10%;
-    top: 230px;
-  }
-  .container{
-    height: 138px;
-  }
-}
-
-@media (max-width : 405px){
-    .projects::after{
-        width: 50vw;
-    }
-    .listvideogames{
-        top: 242px;
-        left: -5em;
-        margin: 0 0 5px 5px;
     }
 }
