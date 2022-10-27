@@ -115,3 +115,9 @@ a {
         width: 65vw;
     }
 }
+
+@media (max-width: 401px){
+    .project{
+        height: 270vh;
+    }
+}
