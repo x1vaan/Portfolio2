@@ -30,8 +30,8 @@ export default function Home (): JSX.Element {
          <a href="https://www.linkedin.com/in/sergio-ivan-garcia/"><RiLinkedinFill className={Homecss.linkedin}/></a>
          <a href="https://www.instagram.com/_garciaivann/"><RiInstagramLine className={Homecss.instagram}/></a>
          <a 
-         href={ language === 'Spanish' ? "Sergio Ivan Garcia CV.pdf" : "Sergio Ivan Garcia CV PT.pdf" } 
-         download={language === 'Spanish' ? "Sergio Ivan Garcia CV.pdf" : "Sergio Ivan Garcia CV PT.pdf"}
+         href={ language === 'Spanish' ? "Sergio Ivan Garcia CV - Full Stack - Backend Developer.pdf" : "Sergio Ivan Garcia CV PT.pdf" } 
+         download={language === 'Spanish' ? "Sergio Ivan Garcia CV - Full Stack - Backend Developer.pdf" : "Sergio Ivan Garcia CV PT.pdf"}
          >
           <button className={Homecss.cv}><AiOutlineDownload className={Homecss.download}/> Get CV</button>
           </a> 
