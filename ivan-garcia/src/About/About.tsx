@@ -18,7 +18,13 @@ export default function About (): JSX.Element {
         to hire me, <Link to="contactme" smooth={true} duration={500}><span className={Aboutcss.get}>Get in Touch</span></Link> with me.
         
         </p>
-       <img src={Ivan} alt="Image not Found" className={Aboutcss.photo}/>
+        <div className={Aboutcss.divphoto}>
+         <div className={Aboutcss.content}>
+         <img src={Ivan} alt="Image not Found"/>
+         <h2>Ivan Garcia <br/> <span>Full Stack/Backend Developer</span> </h2>
+        <Link to="contactme" smooth={true} duration={500}> <p>Hire me</p> </Link>
+         </div>
+        </div>
        <p className={Aboutcss.stack}>
         Technologies that i have been working with:
        </p>
@@ -26,6 +32,7 @@ export default function About (): JSX.Element {
         <ul className={Aboutcss.stacklist}>
             <li>JavaScript (ES6+)</li>
             <li>Node.js</li>
+            <li>TypeScript</li>
             <li>Express.js</li>
             <li>React</li>
             <li>PostgreSQL</li>

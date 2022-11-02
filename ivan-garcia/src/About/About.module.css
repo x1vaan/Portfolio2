@@ -43,20 +43,91 @@
     font-weight: 100;
 }
 
-.photo {
-    position: absolute;
-    width: 400px;
-    height: 400px;
-    top: 110px;
-    left: 58%;
-    border-radius: 50%;
-    border: 3px solid #242942;
-    filter: grayscale(100%);
-    transition: 0.4s;
-
+.divphoto{
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background-color: #242942;
+  left: 58%;
+  top: 110px;
+  border-radius: 50%;
+  overflow: hidden;
 }
-.photo:hover {
-  filter: grayscale(0%);
+.divphoto::before{
+    content: '';
+    position: absolute;
+    inset: -10px 140px;
+    background: linear-gradient(315deg, #443DCD, #00ccff);
+    transition: 0.5s;
+    animation: animate 4s linear infinite;
+}
+.divphoto:hover::before{
+    inset: -20px 0px;
+}
+
+@keyframes animate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+
+.divphoto::after{
+    content: '';
+    position: absolute;
+    inset: 6px;
+    background: #0d1117;
+    border-radius: 50%;
+}
+
+.content {
+  position: absolute;
+  inset: 30px;
+  border: 6px solid #242942;
+  z-index: 3;
+  border-radius: 50%;
+  overflow: hidden;
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.content img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    pointer-events: none;
+}
+
+.divphoto:hover .content img{
+    opacity: 0;
+}
+
+.content h2 {
+    color: #ccd6f6;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 100;
+}
+
+.content p {
+  background-color: none;
+  padding: 10px 10px;
+  border: 1px solid #443DCD;
+  border-radius: 4px;
+  color: #ccd6f6;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.content p:hover{
+  background-color: #443DCD;
 }
 
 .stack{
@@ -97,10 +168,13 @@
 }
 
 @media (max-width : 1400px){
-     .photo{
+     .divphoto{
         width: 300px;
         height: 300px;
         left: 70%;
+     }
+     .divphoto::before{
+        inset: -10px 110px;
      }
 }
 
@@ -123,14 +197,14 @@
     left: 1%;
     top: 350px;
    }
-   .photo{
+   .divphoto{
     left: 60%;
     top: 350px;
    }
 }
 
 @media (max-width: 760px) {
-    .photo{
+    .divphoto{
         left: 30%;
         top: 550px;
     }
@@ -157,7 +231,7 @@
     .stacklist{
         top: 480px;
     }
-    .photo{
+    .divphoto{
         left: 20vw;
         top: 650px;
     }
@@ -173,8 +247,11 @@
        .stacklist{
            top: 520px;
        }
-       .photo{
-           left: 3em;
-           top: 650px;
+       .divphoto{
+           left: 11%;
+           top: 670px;
+       }
+       .divphoto::before { 
+        inset: -10px 110px;
        }
 }
