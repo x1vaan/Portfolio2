@@ -250,6 +250,7 @@
        .divphoto{
            left: 11%;
            top: 670px;
+           overflow: hidden;
        }
        .divphoto::before { 
         inset: -10px 110px;

@@ -20,7 +20,7 @@ export default function Home (): JSX.Element {
        <div className={Homecss.container}>
          <p className={Homecss.hello}>Hello, my name is</p>
          <p className={Homecss.name}>Sergio Ivan Garcia.</p>
-         <p className={Homecss.callme}>(But you can call me Ivan :p)</p>
+         <p className={Homecss.callme}>(But you can call me Ivan :D)</p>
          <p className={Homecss.area}>
           I am a Junior Full Stack Developer who wants to specialize on<br/>
           <span className={Homecss.back}>Back-end Development. </span>

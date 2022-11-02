@@ -21,7 +21,7 @@
 .name {
     position: absolute;
     right: 22%;
-    margin-top: -37vh;
+    margin-top: -39vh;
     font-family: 'Reem Kufi Ink', sans-serif;
     font-size: 25px;
     color: #ccd6f6;
@@ -35,7 +35,8 @@
     box-shadow: 0 10px 30px -15px rgba(2,12,27,0.7);
     background-color: #141a24;
     width: 42%;
-    height: 120px;
+    min-height: 120px;
+    overflow: hidden;
     border-radius: 5px;
     text-align: end;
 }
@@ -65,9 +66,6 @@
 }
 
 @media (max-width : 1131px) {
-   .description{
-     height: 21vh;
-   }
    .image{
     height: 70%;
    }
@@ -86,7 +84,6 @@
      top: -1vh;
      left: 0%;
      width: 100%;
-     height: 130px;
    }
    .text{
     text-align: center;
@@ -112,9 +109,6 @@
         position: relative;
         top: -12vh;
     }
-    .description{
-        height: 150px;
-    }
 }
 
 @media (max-width: 401px){
@@ -128,7 +122,7 @@
     .name{
         margin-top: -34vh;
     }
-    .description{
-        height: 178px;
+    .text {
+        margin-right: 0px;
     }
 }
