@@ -23,7 +23,7 @@ const projects : Iproject[] = [
     },
     {
      name : 'Videogames-App',
-     description: 'A web app for visualizing and interact with information of 100 games, consuming the RAWG API. Manipulating database,storing the information of each game,create a new videogame, seachbar and sorting filters.',
+     description: 'A web app for visualizing and interact with information of 100 games, consuming the RAWG API. Manipulating database, storing the information of each game,create a new videogame, seachbar and sorting filters.',
      technologies: ['JavaScript','Node.js','Express.js','PostgreSQL','React','Redux','CSS'],
      image : 'Videogames-App.png',
      link: 'https://videogames-project-topaz.vercel.app/'

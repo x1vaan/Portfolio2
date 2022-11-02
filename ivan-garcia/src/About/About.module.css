@@ -60,6 +60,7 @@
     background: linear-gradient(315deg, #443DCD, #00ccff);
     transition: 0.5s;
     animation: animate 4s linear infinite;
+    overflow: hidden;
 }
 .divphoto:hover::before{
     inset: -20px 0px;
@@ -253,6 +254,7 @@
            overflow: hidden;
        }
        .divphoto::before { 
+        overflow: hidden;
         inset: -10px 110px;
        }
 }
