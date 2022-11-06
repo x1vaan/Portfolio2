@@ -1,12 +1,8 @@
 import React, {useState, ChangeEvent} from "react";
-import NavBar from "../NavBar/NavBar";
 import Homecss from "./Home.module.css"
 import { GoMarkGithub } from 'react-icons/go'
 import {RiLinkedinFill,RiInstagramLine} from 'react-icons/ri'
 import {AiOutlineDownload} from 'react-icons/ai'
-import About from "../About/About";
-import Project from "../Projects/Projects";
-import Contact from "../Contact/Contact";
 
 
 export default function Home (): JSX.Element {
@@ -30,13 +26,20 @@ export default function Home (): JSX.Element {
          <a href="https://www.linkedin.com/in/sergio-ivan-garcia/"><RiLinkedinFill className={Homecss.linkedin}/></a>
          <a href="https://www.instagram.com/_garciaivann/"><RiInstagramLine className={Homecss.instagram}/></a>
          <a 
-         href={ language === 'Spanish' ? "Sergio Ivan Garcia CV - Full Stack - Backend Developer.pdf" : "Sergio Ivan Garcia CV PT.pdf" } 
-         download={language === 'Spanish' ? "Sergio Ivan Garcia CV - Full Stack - Backend Developer.pdf" : "Sergio Ivan Garcia CV PT.pdf"}
+         href={ language === 'Spanish' ? "Sergio Ivan Garcia CV - Full Stack - Backend Developer.pdf" 
+         : language === 'English' ? "Sergio Ivan Garcia Resume - Full Stack - Backend Developer.pdf" 
+         : "Sergio Ivan Garcia CV PT.pdf"
+        } 
+         download={ language === 'Spanish' ? "Sergio Ivan Garcia CV - Full Stack - Backend Developer.pdf" 
+         : language === 'English' ? "Sergio Ivan Garcia Resume - Full Stack - Backend Developer.pdf" 
+         : "Sergio Ivan Garcia CV PT.pdf"
+        }
          >
           <button className={Homecss.cv}><AiOutlineDownload className={Homecss.download}/> Get CV</button>
           </a> 
          <select name="selectlanguage" id="selectlanguage" onChange={onchange} className={Homecss.select}>
           <option value="Spanish">Spanish</option>
+          <option value="English">English</option>
           <option value="Portuguese">Portuguese</option>
          </select>
        </div> 
