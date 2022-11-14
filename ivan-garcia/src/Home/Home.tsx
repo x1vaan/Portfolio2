@@ -28,11 +28,11 @@ export default function Home (): JSX.Element {
          <a 
          href={ language === 'Spanish' ? "Sergio Ivan Garcia CV - Full Stack - Backend Developer.pdf" 
          : language === 'English' ? "Sergio Ivan Garcia Resume - Full Stack - Backend Developer.pdf" 
-         : "Sergio Ivan Garcia CV PT.pdf"
+         : "Sergio Ivan Garcia CV PT - Full Stack - Backend Developer.pdf"
         } 
          download={ language === 'Spanish' ? "Sergio Ivan Garcia CV - Full Stack - Backend Developer.pdf" 
          : language === 'English' ? "Sergio Ivan Garcia Resume - Full Stack - Backend Developer.pdf" 
-         : "Sergio Ivan Garcia CV PT.pdf"
+         : "Sergio Ivan Garcia CV PT - Full Stack - Backend Developer.pdf"
         }
          >
           <button className={Homecss.cv}><AiOutlineDownload className={Homecss.download}/> Get CV</button>
