@@ -47,6 +47,7 @@
     padding: 1.25rem 1.75rem; 
     border-radius: 4px;
     transition: 0.4s;
+    text-decoration: none;
 }
 .email:hover{
     background-color: #443DCD;
